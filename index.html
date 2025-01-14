@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu nome é Matheus</title>
+        <link rel="favicon" href="images/images 2.jfif">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script>
+            function popUp() {
+                alert("81 986096719");
+            }
+
+            function sobre() {
+                document.getElementById("sobre").innerHTML = "Eu sou programador";
+            }
+        </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <img src="images/mark.jpg" alt="foto" id="fotoperfil">
+
+        <h1>Matheus José</h1>
+
+        <div id="butoes">
+        <a href="https://instagram.com/teteu.08j">Instagram</a>
+        <a href="https://youtube.com/Desimpedidos">Youtube</a>
+        <a href="https://linkedin.com/">Linkedin</a>
+        <a href="https://github.com/Teteuzzito">Portfólio</a>
+        <a href="https://wa.me/5581986096719" onclick="popUp()">WhatsApp</a>
+
+        <h1 onclick="sobre()">Sobre</h1>
+        
+        <div id="sobre">
+            Quem sou eu?
+        </div>
+        </div>
+    </body>
+</html>
